@@ -1,7 +1,27 @@
 aid: fliptop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fliptop.png
 name: Fliptop
-description: Fliptop is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fliptop was a San Francisco-based predictive marketing and customer
+  intelligence startup that applied data science and machine learning to CRM
+  and marketing-automation data to score leads, predict conversion, and prioritize
+  sales pipelines. Founded around 2009, it was acquired by LinkedIn in August 2015
+  and folded into LinkedIn's Sales Solutions (Sales Navigator) product. The company
+  no longer operates as an independent entity and publishes no public API, developer
+  portal, or SDKs; its former domain fliptop.com now 301-redirects to
+  business.linkedin.com/sales-solutions. This profile is retained in the API
+  Evangelist network as a historical portfolio-company record.
 url: https://raw.githubusercontent.com/api-evangelist/fliptop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,32 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: linkedin
+x-acquired-date: '2015-08'
+x-operating: false
+x-evidence: fliptop.com 301-redirects to business.linkedin.com/sales-solutions (probed 2026-07-19)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Predictive Marketing
+- Customer Intelligence
+- Lead Scoring
+- Data Science
+- Machine Learning
+- Sales
+- Marketing Automation
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
