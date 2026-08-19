@@ -34,7 +34,7 @@ x-acquired-by: linkedin
 x-acquired-date: '2015-08'
 x-operating: false
 x-evidence: fliptop.com 301-redirects to business.linkedin.com/sales-solutions (probed 2026-07-19)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
