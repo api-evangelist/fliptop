@@ -54,7 +54,7 @@ tags:
 - Customer Intelligence
 - Lead Scoring
 - Data Science
-- Machine-Learning
+- Machine Learning
 - Sales
 - Marketing Automation
 - Acquired
@@ -68,6 +68,7 @@ tags_raw:
 - Sales
 - Marketing Automation
 - Acquired
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
